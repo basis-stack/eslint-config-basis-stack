@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-basis-stack",
+  "version": "0.0.1",
+  "description": "ESLint configuration used throughout the Basis stack",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*Spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/warebrained/eslint-config-basis-stack.git"
+  },
+  "keywords": [
+    "Basis",
+    "eslint",
+    "eslintconfig",
+    "config"
+  ],
+  "author": "Justin Ware <wareisjustin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/warebrained/eslint-config-basis-stack/issues"
+  },
+  "homepage": "https://github.com/warebrained/eslint-config-basis-stack#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "basis-testing": "^0.0.3",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
