@@ -46,7 +46,7 @@ module.exports = {
     'no-console': [0],
     'no-param-reassign': [2, { 'props': false }],
     'no-underscore-dangle': [0],
-    'no-unused-expressions': 0,
+    'no-unused-expressions': [0],
     'no-unused-vars': [0],
     'padded-blocks': [0],
     'prefer-destructuring': [0],
