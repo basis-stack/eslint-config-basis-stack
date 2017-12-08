@@ -1,5 +1,6 @@
 import { expect } from 'chai';
-import { the, should } from 'basis-testing';
+
+import { the, should } from './utils';
 import config from './../';
 
 the('config', () => {
