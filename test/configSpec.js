@@ -74,10 +74,10 @@ the('config', () => {
     expect(config.rules['eol-last']).to.deep.equal(disabledResult);
   });
 
-  should('allow dev-only dependencies for specs & gulpfile', () => {
+  should('allow dev-only dependencies for specs, gulpfile and build config', () => {
     
     const expectedResult = [2, {
-      'devDependencies': ['**/*Spec.js', 'gulpfile.babel.js']
+      'devDependencies': ['**/*Spec.js', 'gulpfile.babel.js', 'config/build.config.js']
     }];
     
     expect(config.rules['import/no-extraneous-dependencies']).to.deep.equal(expectedResult);

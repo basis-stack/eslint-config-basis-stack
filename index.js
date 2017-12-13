@@ -29,7 +29,7 @@ module.exports = {
     'comma-dangle': [2, 'never'],
     'eol-last': [0],
     'import/no-extraneous-dependencies': [2, {
-      'devDependencies': ['**/*Spec.js', 'gulpfile.babel.js']
+      'devDependencies': ['**/*Spec.js', 'gulpfile.babel.js', 'config/build.config.js']
     }],
     'indent': [2, 2, {
       'FunctionDeclaration': { 'parameters': 'first' },
