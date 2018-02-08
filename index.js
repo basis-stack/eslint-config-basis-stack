@@ -41,7 +41,7 @@ module.exports = {
     'max-len': [0],
     'new-cap': [2, {
       'newIsCapExceptions': ['target'],
-      'capIsNewExceptions': ['Router', 'Controller', 'Get', 'Post', 'Put', 'Delete']
+      'capIsNewExceptions': ['Authenticate', 'Controller', 'Route', 'Get', 'Head', 'Post', 'Put', 'Delete', 'Options']
     }],
     'no-console': [0],
     'no-param-reassign': [2, { 'props': false }],
