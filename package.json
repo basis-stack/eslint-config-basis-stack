@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-basis-stack",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "ESLint configuration used throughout the Basis stack",
   "main": "index.js",
   "directories": {
