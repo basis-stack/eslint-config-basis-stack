@@ -145,7 +145,7 @@ the('config', () => {
 
   should('allow caps case names for decorators', () => {
 
-    expect(config.rules['new-cap'][1].capIsNewExceptions).to.deep.equal(['Authenticate', 'Controller', 'Route', 'Router', 'Get', 'Head', 'Post', 'Put', 'Delete', 'Options']);
+    expect(config.rules['new-cap'][1].capIsNewExceptions).to.deep.equal(['Authenticate', 'Controller', 'Middleware', 'Route', 'Router', 'Get', 'Head', 'Post', 'Put', 'Delete', 'Options']);
   });
 
   should('allow console logging', () => {
