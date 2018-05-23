@@ -97,7 +97,7 @@ the('config', () => {
   should('allow dev-only dependencies for specs, gulpfile and build config', () => {
 
     const expectedResult = [2, {
-      'devDependencies': ['**/*Spec.js', 'gulpfile.babel.js', 'config/build.config.js']
+      'devDependencies': ['**/*Spec.js', 'gulpfile.babel.js', 'gulpfile.prepare.js', 'config/build.config.js']
     }];
 
     expect(config.rules['import/no-extraneous-dependencies']).to.deep.equal(expectedResult);

@@ -34,7 +34,7 @@ module.exports = {
     'eol-last': [0],
     'function-paren-newline': [2, 'never'],
     'import/no-extraneous-dependencies': [2, {
-      'devDependencies': ['**/*Spec.js', 'gulpfile.babel.js', 'config/build.config.js']
+      'devDependencies': ['**/*Spec.js', 'gulpfile.babel.js', 'gulpfile.prepare.js', 'config/build.config.js']
     }],
     'indent': [2, 2, {
       'FunctionDeclaration': { 'parameters': 'first' },
