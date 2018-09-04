@@ -20,6 +20,10 @@ module.exports = {
 
     // Plugin rules
     'chai-friendly/no-unused-expressions': [2],
+    'import/named': ['__RewireAPI__'],
+    'import/no-extraneous-dependencies': [2, {
+      'devDependencies': ['**/*Spec.js', 'gulpfile.babel.js', 'gulpfile.prepare.js', 'config/build.config.js']
+    }],
     'jsx-a11y/anchor-is-valid': [0],
     'react/forbid-prop-types': [2, { 'forbid': ['any'] }],
     'react/jsx-closing-bracket-location': [2, 'after-props'],
@@ -33,9 +37,6 @@ module.exports = {
     'comma-dangle': [2, 'never'],
     'eol-last': [0],
     'function-paren-newline': [2, 'never'],
-    'import/no-extraneous-dependencies': [2, {
-      'devDependencies': ['**/*Spec.js', 'gulpfile.babel.js', 'gulpfile.prepare.js', 'config/build.config.js']
-    }],
     'indent': [2, 2, {
       'FunctionDeclaration': { 'parameters': 'first' },
       'CallExpression': { 'arguments': 'first' },
@@ -54,6 +55,7 @@ module.exports = {
     'no-underscore-dangle': [0],
     'no-unused-expressions': [0],
     'no-unused-vars': [0],
+    'operator-linebreak': [2, 'after'],
     'object-curly-newline': [0],
     'padded-blocks': [0],
     'prefer-destructuring': [0],
