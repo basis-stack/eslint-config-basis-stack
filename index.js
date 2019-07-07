@@ -20,7 +20,6 @@ module.exports = {
 
     // Plugin rules
     'chai-friendly/no-unused-expressions': [2],
-    'import/named': ['__RewireAPI__'],
     'import/no-extraneous-dependencies': [2, {
       'devDependencies': ['**/*Spec.js', 'gulpfile.babel.js', 'gulpfile.prepare.js', 'config/build.config.js']
     }],

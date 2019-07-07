@@ -43,12 +43,7 @@ the('config', () => {
     expect(config.rules['no-unused-expressions']).to.deep.equal(disabledResult);
     expect(config.rules['chai-friendly/no-unused-expressions']).to.deep.equal(enabledResult);
   });
-  
-  should('allow babel-plugin-rewire object imports (__RewireAPI__)', () => {
 
-    expect(config.rules['import/named']).to.deep.equal(['__RewireAPI__']);
-  });
-  
   should('allow dev-only dependencies for specs, gulpfile and build config', () => {
 
     const expectedResult = [2, {
@@ -56,7 +51,7 @@ the('config', () => {
     }];
 
     expect(config.rules['import/no-extraneous-dependencies']).to.deep.equal(expectedResult);
-  });  
+  });
 
   should('allow invalid anchor tags (no href)', () => {
 
@@ -172,7 +167,7 @@ the('config', () => {
 
     expect(config.rules['no-unused-vars']).to.deep.equal(disabledResult);
   });
-  
+
   should('allow linebreaks after operators', () => {
 
     expect(config.rules['operator-linebreak']).to.deep.equal([2, 'after']);
