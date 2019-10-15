@@ -5,7 +5,7 @@ ESLint config used throughout the Basis Stack. Takes AirBnB's base config and tw
 
 ## Why ?
 
-AirBnb's ESLint config is great, and does a LOT out of the box and is indeed considered a de facto standard for ES6 style guidelines. However, a few things are a bit restrictive / opinionated, and the base ruleset does not cater to Basis Stack's unique requirements nor our own style preferences. This package attempts to fix those shortcomings and adjust the rules to a more tuned set particular for the stack.
+AirBnb's ESLint config is great, does a LOT out of the box and is indeed considered a de facto standard for ES6 style guidelines. However, a few things are a bit restrictive / opinionated, and the base ruleset does not cater to Basis Stack's unique requirements nor our own style preferences. This package attempts to fix those shortcomings and adjust the rules to a more tuned set particular for the stack.
 
 ## Usage
 
