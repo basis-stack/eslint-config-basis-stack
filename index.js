@@ -29,9 +29,15 @@ module.exports = {
     'react/jsx-filename-extension': [1, { 'extensions': ['.js', '.jsx'] }],
     'react/jsx-first-prop-new-line': [2, 'never'],
     'react/jsx-indent-props': [0],
+    // TODO: Test this
+    'react/jsx-props-no-spreading': [2, {
+      'custom': 'ignore'
+    }],
     'react/prop-types': [0],
 
     // AirBnB Overrides
+    // TODO: Test this
+    'arrow-parens': [2, 'as-needed'],
     'class-methods-use-this': [0],
     'comma-dangle': [2, 'never'],
     'eol-last': [0],
