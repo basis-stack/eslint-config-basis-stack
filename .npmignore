@@ -4,3 +4,4 @@ yarn.lock
 .travis.yml
 .c9
 *.log
+.mocharc.yml
